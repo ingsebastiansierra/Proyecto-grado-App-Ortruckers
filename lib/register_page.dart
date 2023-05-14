@@ -46,12 +46,12 @@ class _RegisterPageState extends State<RegisterPage> {
         showDialog(
           context: context,
           builder: (context) => AlertDialog(
-            title: Text('Contraseña débil'),
-            content: Text('La contraseña debe tener al menos 6 caracteres.'),
+            title: const Text('Contraseña débil'),
+            content: const Text('La contraseña debe tener al menos 6 caracteres.'),
             actions: <Widget>[
               TextButton(
                 onPressed: () => Navigator.pop(context),
-                child: Text('Aceptar'),
+                child: const Text('Aceptar'),
               ),
             ],
           ),
@@ -60,13 +60,13 @@ class _RegisterPageState extends State<RegisterPage> {
         showDialog(
           context: context,
           builder: (context) => AlertDialog(
-            title: Text('Correo electrónico en uso'),
-            content: Text(
+            title: const Text('Correo electrónico en uso'),
+            content: const Text(
                 'Este correo electrónico ya está registrado. Por favor, inicie sesión o utilice un correo electrónico diferente.'),
             actions: <Widget>[
               TextButton(
                 onPressed: () => Navigator.pop(context),
-                child: Text('Aceptar'),
+                child: const Text('Aceptar'),
               ),
             ],
           ),
@@ -118,7 +118,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: <Widget>[
-                          Text(
+                          const Text(
                             'Crear Cuenta Nueva',
                             textAlign: TextAlign.center,
                             style: TextStyle(
