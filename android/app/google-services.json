@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "344458890560",
+    "firebase_url": "https://autentication-firebase-2d58d-default-rtdb.firebaseio.com",
+    "project_id": "autentication-firebase-2d58d",
+    "storage_bucket": "autentication-firebase-2d58d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344458890560:android:187acc9d72fd83de39fea5",
+        "android_client_info": {
+          "package_name": "com.example.autentication_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344458890560-2po2r7hhr8uh5kt4nrtcpagr72sv564v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_QFoezwqRPnElxrCgPXiy7dmbSGPaE4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344458890560-2po2r7hhr8uh5kt4nrtcpagr72sv564v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "344458890560-btec9bsp7pkrn4aporuj6fptm8qev2an.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.autenticationFirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
